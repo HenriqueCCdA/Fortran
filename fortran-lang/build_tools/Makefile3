@@ -1,0 +1,5 @@
+prefix := /usr # path to install location
+install:
+	echo "$(prefix)/lib"
+	echo "$(strip $(prefix))/lib"
+	echo "$(join $(join $(prefix), /), lib)"

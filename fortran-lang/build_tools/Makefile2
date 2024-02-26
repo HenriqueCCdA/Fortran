@@ -1,0 +1,6 @@
+all:
+	echo $(FFLAGS)
+
+FFLAGS = $(include_dirs) -O
+include_dirs += -I./include
+include_dirs += -I/opt/some_dep/include
